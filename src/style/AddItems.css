@@ -1,0 +1,46 @@
+.additems {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #5677cf;
+    border-radius: 8px;
+    box-shadow: 0 0 40px rgba(14, 9, 9, 0.8);
+    padding: 20px;
+}
+
+.labelm {
+    color: rgb(243, 11, 11);
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.form >input[type="text"],
+input[type="number"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #08f097;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(16, 235, 71);
+    color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+.additems>.form{
+    display: block;
+    justify-content: center;
+}

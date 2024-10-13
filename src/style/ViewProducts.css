@@ -1,0 +1,30 @@
+.display{
+    height: 600px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 1opx gray;
+    text-align: center;
+}
+
+
+.image{
+    height: 18em;
+    width: 10em;
+}
+
+.image img{
+    offset: contain;
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+.details h1{
+    font-size: 19px;
+}
+
+.details h2{
+    font-size: 19px;
+}

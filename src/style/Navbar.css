@@ -1,0 +1,99 @@
+.logo>img{
+    width: 100px;
+}
+
+.profile{
+    border-radius: 100%;
+    transform: translate(-5px, 10px)
+}
+
+.profile>img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    /* mix-blend-mode: darken; */
+    /* transform: translate(50); */
+}
+
+.nav{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.options{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    transform: translate(350px);
+
+}
+
+.options >.search{
+    transform: translateY(10px)
+}
+
+.options >.search> input{
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* transform: translate(20px,10px); */
+
+}
+
+.options >.search> .btn{
+    width: 28%;
+    padding: 6px;
+
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* transform: translate(20px,10px); */
+
+}
+
+.options >.wishu a{
+    
+    text-decoration: none;
+    color: red;
+    /* transform: translate(-200px, 10px); */
+}
+.options >.addu a{
+    color: red;
+    text-decoration: none;
+}
+
+.sub2{
+    display: block;
+    position: absolute;
+    transform: translate(-70px, -1px);
+    background-color: blanchedalmond;
+}
+
+.sub2 a{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    box-shadow: 0px 0px 4px red;
+    text-decoration: none;
+    padding: 5px;
+    /* color: aliceblue; */
+}
+
+/* sub2 :hover{
+    color: red;
+} */
+
+/* .navbar{
+    background-color: red;
+    
+} */
+
+
